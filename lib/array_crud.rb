@@ -7,9 +7,9 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array= ["honda", "toyota", "nissan", "volvo"]
-  array << "subaru"
-  puts array.inspect 
+  car_make= ["honda", "toyota", "nissan", "volvo"]
+  car_make << "subaru"
+  puts car_make.inspect
 end
 
 def add_element_to_start_of_array(array, element)
