@@ -8,10 +8,10 @@ end
 
 def add_element_to_end_of_array(array, element)
 
-  array= []
-  array << element
+  array= ["honda", "toyota", "nissan", "volvo"]
+  array.push ("subaru")
   puts array.inspect
-  
+
 end
 
 def add_element_to_start_of_array(array, element)
